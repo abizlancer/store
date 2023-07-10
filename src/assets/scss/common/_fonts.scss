@@ -1,0 +1,23 @@
+// bruno
+@font-face {
+  font-family: 'bruno';
+  src: url('../../fonts/BrunoAceSC-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+// inter
+@font-face {
+  font-family: 'inter';
+  src: url('../../fonts/Inter-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+// questrial
+@font-face {
+  font-family: 'questrial';
+  src: url('../../fonts/Questrial-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+$kanit: ('Light', 300), ('Regular', 400), ('ExtraBold', 800);
+@each $name, $weight in $kanit {
+  @include FontFace('kanit', 'kanit/Kanit-', $name, '.ttf', 'truetype', $weight)
+}

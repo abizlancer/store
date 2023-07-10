@@ -1,0 +1,47 @@
+:root {
+  --k: 'kanit',
+  --b: 'bruno',
+  --i: 'inter',
+  --q: 'questrial'
+  
+  --blue: #030A8C;
+  --black: #121211;
+  --white: #ffffff;
+  --gray: #A5A5A5;
+  --light-gray: #EAEAEA;
+  --dark-gray: #3D3D3D;
+  --border: #F0F0F0;
+}
+$k: var(--k);
+$b: var(--b);
+$i: var(--i);
+$q: var(--q);
+$blue: var(--blue);
+$black: var(--black);
+$white: var(--white);
+$gray: var(--gray);
+$light-gray: var(--light-gray);
+$dark-gray: var(--dark-gray);
+$border: var(--border);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--k);
+  font-weight: 400;
+}
+
+a {
+  list-style: none;
+}
+ul {
+  text-decoration: none;
+}
+.container {
+  max-width: 1650px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  border: 1px solid red; 
+}
