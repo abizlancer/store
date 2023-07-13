@@ -7,7 +7,7 @@
 @mixin FontFace($fName, $Url, $name, $ext, $format, $weight) {
   @font-face {
     font-family: $fName;
-    src: url(`../../fonts/$Url-$name.$ext`) format($format);
+    src: url('../fonts/#{$Url}#{$name}.#{$ext}') format($format);
     font-weight: $weight;
   }
 }
