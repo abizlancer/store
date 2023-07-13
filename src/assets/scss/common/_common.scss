@@ -2,7 +2,7 @@
   --k: 'kanit',
   --b: 'bruno',
   --i: 'inter',
-  --q: 'questrial'
+  --q: 'questrial';
   
   --blue: #030A8C;
   --black: #121211;
@@ -30,16 +30,11 @@ $border: var(--border);
   box-sizing: border-box;
   font-family: $k;
   font-weight: 400;
-}
-
-a {
   list-style: none;
-}
-ul {
   text-decoration: none;
 }
 .container {
-  max-width: 1650px;
+  max-width: 1320px;
   width: 100%;
   margin: 0 auto;
   padding: 0 15px;
