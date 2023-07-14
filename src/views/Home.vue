@@ -1,9 +1,11 @@
 <template>
-  <div></div>
+  <app-header />
 </template>
 
 <script>
-  export default {
-    
-  }
+import AppHeader from '../components/Header.vue';
+
+export default {
+  components: { AppHeader }
+}
 </script>

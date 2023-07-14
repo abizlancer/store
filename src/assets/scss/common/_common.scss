@@ -34,9 +34,17 @@ $border: var(--border);
   text-decoration: none;
 }
 .container {
-  max-width: 1320px;
+  max-width: 1650px;
   width: 100%;
   margin: 0 auto;
   padding: 0 15px;
   border: 1px solid red; 
+}
+.btn-link {
+  background: $blue;
+  color: $white;
+  padding: 14px 45px;
+  font-family: $b;
+  font-size: 18px;
+  line-height: 21px;
 }
