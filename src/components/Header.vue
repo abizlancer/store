@@ -4,18 +4,16 @@
       <h1>iPhone 14 Pro Max</h1>
       <a href="#!" class="btn-link">SHOP NOW</a>
     </div>
-    <!-- <div class="header__slider--wrapper"> -->
-      <swiper 
-        :pagination="pagination" 
-        :modules="modules"
-        :space-between="50"
-        class="header__slides"
-      >
-        <swiper-slide class="header--slide"><img src="../assets/images/slide1.png" alt=""></swiper-slide>
-        <swiper-slide class="header--slide"><img src="../assets/images/slide1.png" alt=""></swiper-slide>
-        <swiper-slide class="header--slide"><img src="../assets/images/slide1.png" alt=""></swiper-slide>
-      </swiper>
-    <!-- </div> -->
+    <swiper 
+      :pagination="pagination" 
+      :modules="modules"
+      :space-between="50"
+      class="header__slides"
+    >
+      <swiper-slide class="header--slide"><img src="../assets/images/slide1.png" alt=""></swiper-slide>
+      <swiper-slide class="header--slide"><img src="../assets/images/slide1.png" alt=""></swiper-slide>
+      <swiper-slide class="header--slide"><img src="../assets/images/slide1.png" alt=""></swiper-slide>
+    </swiper>
   </header>
 </template>
 
