@@ -1,7 +1,7 @@
 :root {
-  --k: 'kanit',
-  --b: 'bruno',
-  --i: 'inter',
+  --k: 'kanit';
+  --b: 'bruno';
+  --i: 'inter';
   --q: 'questrial';
   
   --blue: #030A8C;
@@ -16,6 +16,7 @@ $k: var(--k);
 $b: var(--b);
 $i: var(--i);
 $q: var(--q);
+
 $blue: var(--blue);
 $black: var(--black);
 $white: var(--white);

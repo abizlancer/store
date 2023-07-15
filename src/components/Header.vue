@@ -1,7 +1,7 @@
 <template>
   <header class="header container">
     <div class="header__info">
-      <h1>iPhone 14 Pro Max</h1>
+      <h1>Phone 14 Pro Max</h1>
       <a href="#!" class="btn-link">SHOP NOW</a>
     </div>
     <swiper 
