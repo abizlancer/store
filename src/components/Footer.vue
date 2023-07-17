@@ -1,7 +1,9 @@
 <template>
   <footer class="footer">
     <div class="footer__content container">
-      <a href="#!" class="footer--logo"></a>
+      <a href="#!" class="footer--logo">
+        <img src="../assets/images/footer-logo.png" alt="">
+      </a>
       <nav class="footer__nav">
         <ul class="footer__nav--list">
           <li v-for="link in links" :key="link.id">
@@ -11,18 +13,20 @@
       </nav>
       <div class="footer__contacts">
         <h4>Contacts</h4>
-        <a href="#!" class="footer__contacts--address">
-          <fa icon="fa-solid fa-location-dot" />
-          <span>70 West Buckingham Ave. Farmingdale, NY 11735</span>
-        </a>
-        <a href="#!" class="footer__contacts--phone">
-          <fa icon="fa-solid fa-mobile-screen-button" />
-          <span>+88 01911 717 490</span>
-        </a>
-        <a href="#!" class="footer__contacts--phone">
-          <fa icon="fa-regular fa-envelope" />
-          <span>contact@sportdriven.com</span>
-        </a>
+        <div class="footer__contacts--items">
+          <a href="#!" class="footer__contacts--item">
+            <fa icon="fa-solid fa-location-dot" />
+            <span>70 West Buckingham Ave. Farmingdale, NY 11735</span>
+          </a>
+          <a href="#!" class="footer__contacts--item">
+            <fa icon="fa-solid fa-mobile-screen-button" />
+            <span>+88 01911 717 490</span>
+          </a>
+          <a href="#!" class="footer__contacts--item">
+            <fa icon="fa-regular fa-envelope" />
+            <span>contact@sportdriven.com</span>
+          </a>
+        </div>
       </div>
     </div>
   </footer>
