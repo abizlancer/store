@@ -1,0 +1,36 @@
+.categories {
+  margin: 150px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  &__category {
+    display: flex;
+    align-items: center;
+    gap: 130px;
+    height: 40px;
+    margin: 92px 134px;
+    
+    button {
+      border: none;
+      outline: none;
+      background: transparent;
+      color: $black;
+      font-size: 20px;
+      font-family: $q;
+      padding: 8px 10px;
+      text-transform: capitalize;
+      cursor: pointer;
+      &:hover {
+        color: $blue;
+        border-bottom: 1px solid $blue;
+      }
+    }
+  }
+  &__items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 70px;
+  }
+}

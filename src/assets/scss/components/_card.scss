@@ -1,0 +1,83 @@
+.card {
+  overflow: hidden;
+ 
+  &:hover {
+    .card--top {
+      background: rgba(18, 18, 17, 0.05);
+      backdrop-filter: blur(1px);
+      
+      &__btns {
+        left: 40px;
+        transform: translateX(0);
+      }
+    }
+  }
+  
+  &--top {
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: 0.3s;
+    padding: 36px 51px;
+    
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    &__btns {
+      position: absolute;
+      top: 40px;
+      left: 0;
+      display: flex;
+      flex-direction: column;
+      row-gap: 41px;
+      overflow: hidden;
+      transform: translateX(-110%);
+      transition: 0.3s;
+      
+      button {
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        font-size: 24px;
+        color: $blue;
+      }
+    }
+    &__discount {
+      position: absolute;
+      top: 0;
+      right: 0;
+      background: $blue;
+      text-transform: uppercase;
+      font-size: 16px;
+      padding: 10px 26px;
+      color: $white;
+      font-family: $k;
+    }
+  }
+  &--info {
+    margin-top: 40px;
+    
+    h4 {
+      font-size: 24px;
+      line-height: 26px;
+      color: $black;
+      font-family: $q;
+      margin-bottom: 8px;
+    }
+    &__price {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      
+      span {
+        font-size: 20px;
+        font-family: $k;
+        color: blue;
+      }
+    }
+  }
+}

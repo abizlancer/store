@@ -49,3 +49,10 @@ $border: var(--border);
   font-size: 18px;
   line-height: 21px;
 }
+.title {
+  font-size: 25px;
+  color: $black;
+  font-family: $q;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+}
