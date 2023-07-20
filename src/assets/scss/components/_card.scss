@@ -1,5 +1,6 @@
 .card {
   overflow: hidden;
+  border: 1px solid $border;
  
   &:hover {
     .card--top {

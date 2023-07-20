@@ -5,11 +5,21 @@
   align-items: center;
   
   &__category {
+    width: 100%;
     display: flex;
     align-items: center;
-    gap: 130px;
+    justify-content: space-between;
+    // gap: 130px;
     height: 40px;
     margin: 92px 134px;
+    @include media(992) {
+      width: 100%;
+      overflow-x: scroll;
+      gap: 50px;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
     
     button {
       border: none;
@@ -32,6 +42,13 @@
     grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 30px;
     grid-row-gap: 70px;
+    
+    @include media(992) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    @include media(768) {
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
 }
 .pagination--btns {

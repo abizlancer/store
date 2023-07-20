@@ -1,14 +1,18 @@
 .more {
-  
   &__items {
+    margin-bottom: 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 30px;
+    @include media(992) {
+      flex-direction: column;
+    }
   }
   &--item {
     position: relative;
     background: $gray;
+    height: 400px;
     
     img {
       width: 100%;
@@ -37,6 +41,9 @@
         font-size: 18px;
         letter-spacing: 0.9px;
         font-family: $q;
+        @include media(992) {
+         width: unset;
+        }
       }
     }
   }
