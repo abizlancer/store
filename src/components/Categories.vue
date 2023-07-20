@@ -19,8 +19,12 @@
       />
     </div>
     <div class="pagination--btns">
-      <button @click.prevent="prevPage">prev</button>
-      <button @click.prevent="nextPage">next</button>
+      <button @click.prevent="prevPage">
+        <fa icon="fa-solid fa-chevron-left" />
+      </button>
+      <button @click.prevent="nextPage">
+        <fa icon="fa-solid fa-chevron-right" />
+      </button>
     </div>
   </section>
 </template>

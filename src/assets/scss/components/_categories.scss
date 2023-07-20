@@ -34,3 +34,20 @@
     grid-row-gap: 70px;
   }
 }
+.pagination--btns {
+  margin-top: 160px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  button {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: 1px solid $border;
+    outline: none;
+    cursor: pointer;
+  }
+}
