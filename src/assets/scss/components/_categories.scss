@@ -11,7 +11,7 @@
     justify-content: space-between;
     // gap: 130px;
     height: 40px;
-    margin: 92px 134px;
+    margin: 92px auto;
     @include media(992) {
       width: 100%;
       overflow-x: scroll;
@@ -31,7 +31,8 @@
       padding: 8px 10px;
       text-transform: capitalize;
       cursor: pointer;
-      &:hover {
+      &:hover,
+      &.active {
         color: $blue;
         border-bottom: 1px solid $blue;
       }
